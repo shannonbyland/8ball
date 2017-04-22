@@ -22,18 +22,21 @@ var randomNumber = Math.floor(Math.random()*answers.length);
 //display the answer
 var displayAnswer = document.getElementById('answer');
 displayAnswer.innerTEXT = randomNumber;
- }
+}
 
-var askButton = document.getElementById("generate");
+//Clear out the input after the answer
+function clearInput () {
+var clearText = document.getElementById('question');
+clearText.innerTEXT = '';
+}
+
+var askButton = document.getElementById('generate');
 
 askButton.addEventListener("click", function() {
   getAnswer();
+  //answer is shown and input is immediately cleared
+  clearInput();
 });
-
-
-//console.log();
-
-//Clear out the input after the answer -- innerTEXT?
 
 
 //need to display history of answers
