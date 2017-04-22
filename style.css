@@ -11,7 +11,8 @@
 .container {
   background: black;
   color: purple;
-  width: 500px;
+  width: 250px;
+  height: 200px;
   margin: auto auto 0 auto;
   border: 5px solid purple;
   border-radius: 50%;

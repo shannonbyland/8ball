@@ -1,3 +1,4 @@
+
 var randomAnswer;
 var randomNumber;
 
@@ -24,6 +25,7 @@ askButton.addEventListener("click", function() {
   getAnswer();
 });
 
-//Clear out the input after the answer
+//Clear out the input after the answer -- innerTEXT?
+
 
 //need to display history of answers
