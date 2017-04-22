@@ -23,12 +23,13 @@ var randomNumber = Math.floor(Math.random()*answers.length);
 //display the answer
 var displayAnswer = document.getElementById('answer');
 displayAnswer.innerHTML = answers[randomNumber];
+
 }
 
 //Clear out the input after the answer
 function clearInput () {
 var clearText = document.getElementById('question');
-clearText.innerHTML = '';
+question.value= '';
 }
 
 var askButton = document.getElementById('generate');
@@ -38,6 +39,8 @@ askButton.addEventListener("click", function() {
   //answer is shown and input is immediately cleared
   clearInput();
 });
+
+
 
 
 //need to display history of answers
