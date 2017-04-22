@@ -18,6 +18,10 @@ function getAnswer() {
     "Have at it"
   ];
 var randomNumber = Math.floor(Math.random()*answers.length);
+
+//display the answer
+var displayAnswer = document.getElementById('answer');
+displayAnswer.innerTEXT = randomNumber;
  }
 
 var askButton = document.getElementById("generate");
@@ -26,9 +30,6 @@ askButton.addEventListener("click", function() {
   getAnswer();
 });
 
-//display the answer
-var displayAnswer = document.getElementById('answer');
-displayAnswer.innerTEXT = randomNumber;
 
 //console.log();
 
