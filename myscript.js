@@ -17,17 +17,18 @@ function getAnswer() {
     "Don't be stupid",
     "Have at it"
   ];
+
 var randomNumber = Math.floor(Math.random()*answers.length);
 
 //display the answer
 var displayAnswer = document.getElementById('answer');
-displayAnswer.innerTEXT = randomNumber;
+displayAnswer.innerHTML = answers[randomNumber];
 }
 
 //Clear out the input after the answer
 function clearInput () {
 var clearText = document.getElementById('question');
-clearText.innerTEXT = '';
+clearText.innerHTML = '';
 }
 
 var askButton = document.getElementById('generate');
