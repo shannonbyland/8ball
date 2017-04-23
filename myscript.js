@@ -23,7 +23,6 @@ var randomNumber = Math.floor(Math.random()*answers.length);
 //display the answer
 var displayAnswer = document.getElementById('answer');
 displayAnswer.innerHTML = answers[randomNumber];
-
 }
 
 //Clear out the input after the answer
@@ -41,6 +40,4 @@ askButton.addEventListener("click", function() {
 });
 
 
-
-
-//need to display history of answers
+//Display history of answers
