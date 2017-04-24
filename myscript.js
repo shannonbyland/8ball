@@ -31,6 +31,11 @@ var clearText = document.getElementById('question');
 question.value= '';
 }
 
+//Display history of answers
+//function addHistory () {
+//  var list = document.getElementById()
+//}
+
 var askButton = document.getElementById('generate');
 
 askButton.addEventListener("click", function() {
@@ -38,6 +43,3 @@ askButton.addEventListener("click", function() {
   //answer is shown and input is immediately cleared
   clearInput();
 });
-
-
-//Display history of answers
