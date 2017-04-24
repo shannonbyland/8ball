@@ -1,6 +1,6 @@
 .history {
   width: 250px;
-  height: 170px;
+  height: auto;
   background: pink;
   margin-top: 0px;
   margin-left: 0px;
@@ -27,5 +27,3 @@
 .display {
   color: white;
 }
-
-/* Get the ball to actually shake */
